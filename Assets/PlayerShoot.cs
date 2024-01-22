@@ -2,42 +2,56 @@ using UnityEngine;
 
 public class PlayerShoot : MonoBehaviour
 {
-    public GameObject projectilePrefab;
-    public Transform firePoint;
-    public float projectileSpeed = 10f;
-    public float shootCooldown = 0.125f; // Cooldown in seconds
+    public GameObject fireballPrefab;
+    public GameObject clonePrefab;
 
-    private float nextShootTime = 0f;
+    public float fireCooldown = 1.5f;
+    private float nextFireTime;
 
     void Update()
     {
-        if (Input.GetKey("j") && Time.time >= nextShootTime)
+        // Check for player input to shoot with cooldown
+        if (Input.GetKeyDown(KeyCode.J) && Time.time > nextFireTime)
         {
             Shoot();
-            nextShootTime = Time.time + 1f / shootCooldown;
+            nextFireTime = Time.time + fireCooldown;
         }
     }
 
     void Shoot()
     {
-        // Instantiate a projectile
-        GameObject projectile = Instantiate(projectilePrefab, firePoint.position, Quaternion.identity);
+        // Determine the direction the player is facing
+        Vector2 shootDirection = Vector2.zero; // Default direction (standing still)
 
-        // Access the Rigidbody2D component and set its velocity
-        Rigidbody2D rb = projectile.GetComponent<Rigidbody2D>();
-
-        // Determine the direction based on player's facing
-        Vector2 shootDirection = Vector2.zero;
-
-        if (Input.GetKey("w"))
-            shootDirection = Vector2.up;
-        else if (Input.GetKey("s"))
-            shootDirection = Vector2.down;
-        else if (Input.GetKey("a"))
+        if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.A))
+        {
             shootDirection = Vector2.left;
-        else if (Input.GetKey("d"))
+        }
+        else if (Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D))
+        {
             shootDirection = Vector2.right;
+        }
 
-        rb.velocity = shootDirection * projectileSpeed;
+        if (Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.W))
+        {
+            shootDirection = Vector2.up;
+        }
+        else if (Input.GetKey(KeyCode.DownArrow) || Input.GetKey(KeyCode.S))
+        {
+            shootDirection = Vector2.down;
+        }
+
+        // Instantiate the fireball at the player's position with rotation
+        GameObject fireball = Instantiate(fireballPrefab, transform.position, Quaternion.identity);
+
+        // Set the velocity of the fireball based on the shoot direction
+        fireball.GetComponent<Rigidbody2D>().velocity = shootDirection.normalized * 10f;
+
+        // Attach a script to the fireball to handle collision and cloning
+        FireballCollision fireballCollisionScript = fireball.AddComponent<FireballCollision>();
+        fireballCollisionScript.clonePrefab = clonePrefab;
+
+        // Destroy the fireball after 4 seconds
+        Destroy(fireball, 4f);
     }
 }
