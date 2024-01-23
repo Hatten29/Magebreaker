@@ -1,0 +1,461 @@
+fileFormatVersion: 2
+guid: 51f25455da7f7ae4dbb67c3fd397e4e3
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ALL Spritesheet_scaled_4x_pngcrushed_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7151392d2beaec845ab05ed0750e857a
+      internalID: -2147349577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ALL Spritesheet_scaled_4x_pngcrushed_5
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e802359a17d67524aae6d4c05480d7e9
+      internalID: -892011720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ALL Spritesheet_scaled_4x_pngcrushed_10
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 626c83fd1f11a5b4fb2880631d13179d
+      internalID: 1217324141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ALL Spritesheet_scaled_4x_pngcrushed_15
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92e51ae6cf58e7647a5157e83eb8174f
+      internalID: -1305251799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ALL Spritesheet_scaled_4x_pngcrushed_20
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d5fe97c16a8424439987547251ff912
+      internalID: -1069712767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ALL Spritesheet_scaled_4x_pngcrushed_25
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36f24009f485d9c498b52fe41f6975a2
+      internalID: -2026241956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      ALL Spritesheet_scaled_4x_pngcrushed_0: -2147349577
+      ALL Spritesheet_scaled_4x_pngcrushed_1: 802647010
+      ALL Spritesheet_scaled_4x_pngcrushed_10: 1217324141
+      ALL Spritesheet_scaled_4x_pngcrushed_100: 1451674394
+      ALL Spritesheet_scaled_4x_pngcrushed_101: -55117245
+      ALL Spritesheet_scaled_4x_pngcrushed_102: 745302505
+      ALL Spritesheet_scaled_4x_pngcrushed_103: -1583683574
+      ALL Spritesheet_scaled_4x_pngcrushed_104: 949942723
+      ALL Spritesheet_scaled_4x_pngcrushed_105: 2048297516
+      ALL Spritesheet_scaled_4x_pngcrushed_106: -1273747457
+      ALL Spritesheet_scaled_4x_pngcrushed_107: -983841486
+      ALL Spritesheet_scaled_4x_pngcrushed_108: 920645441
+      ALL Spritesheet_scaled_4x_pngcrushed_109: 1806368296
+      ALL Spritesheet_scaled_4x_pngcrushed_11: -357323186
+      ALL Spritesheet_scaled_4x_pngcrushed_110: -60457026
+      ALL Spritesheet_scaled_4x_pngcrushed_111: -1380948769
+      ALL Spritesheet_scaled_4x_pngcrushed_112: 1082847519
+      ALL Spritesheet_scaled_4x_pngcrushed_113: 324831756
+      ALL Spritesheet_scaled_4x_pngcrushed_114: -805101231
+      ALL Spritesheet_scaled_4x_pngcrushed_115: -873468331
+      ALL Spritesheet_scaled_4x_pngcrushed_116: 374792171
+      ALL Spritesheet_scaled_4x_pngcrushed_117: 1693299882
+      ALL Spritesheet_scaled_4x_pngcrushed_118: -1021564948
+      ALL Spritesheet_scaled_4x_pngcrushed_119: 1651441309
+      ALL Spritesheet_scaled_4x_pngcrushed_12: 1358013451
+      ALL Spritesheet_scaled_4x_pngcrushed_120: -895018197
+      ALL Spritesheet_scaled_4x_pngcrushed_121: 823483857
+      ALL Spritesheet_scaled_4x_pngcrushed_122: 979260426
+      ALL Spritesheet_scaled_4x_pngcrushed_123: -208140474
+      ALL Spritesheet_scaled_4x_pngcrushed_124: -1640331331
+      ALL Spritesheet_scaled_4x_pngcrushed_125: -188766383
+      ALL Spritesheet_scaled_4x_pngcrushed_126: -1601629471
+      ALL Spritesheet_scaled_4x_pngcrushed_127: -489347948
+      ALL Spritesheet_scaled_4x_pngcrushed_128: -1490474316
+      ALL Spritesheet_scaled_4x_pngcrushed_129: -1752891641
+      ALL Spritesheet_scaled_4x_pngcrushed_13: -1268477509
+      ALL Spritesheet_scaled_4x_pngcrushed_130: 1895903706
+      ALL Spritesheet_scaled_4x_pngcrushed_131: -492153540
+      ALL Spritesheet_scaled_4x_pngcrushed_132: 1179547258
+      ALL Spritesheet_scaled_4x_pngcrushed_133: 719348125
+      ALL Spritesheet_scaled_4x_pngcrushed_134: -1094026045
+      ALL Spritesheet_scaled_4x_pngcrushed_135: -1621731452
+      ALL Spritesheet_scaled_4x_pngcrushed_136: -1028210931
+      ALL Spritesheet_scaled_4x_pngcrushed_137: -1695230546
+      ALL Spritesheet_scaled_4x_pngcrushed_138: 930698102
+      ALL Spritesheet_scaled_4x_pngcrushed_139: -1121522268
+      ALL Spritesheet_scaled_4x_pngcrushed_14: -1192439821
+      ALL Spritesheet_scaled_4x_pngcrushed_140: -159581045
+      ALL Spritesheet_scaled_4x_pngcrushed_141: -429451313
+      ALL Spritesheet_scaled_4x_pngcrushed_142: -173956566
+      ALL Spritesheet_scaled_4x_pngcrushed_143: -2045760308
+      ALL Spritesheet_scaled_4x_pngcrushed_144: -277329804
+      ALL Spritesheet_scaled_4x_pngcrushed_145: -1007496569
+      ALL Spritesheet_scaled_4x_pngcrushed_146: -1422906737
+      ALL Spritesheet_scaled_4x_pngcrushed_147: 1985078901
+      ALL Spritesheet_scaled_4x_pngcrushed_148: -2018852270
+      ALL Spritesheet_scaled_4x_pngcrushed_149: -414861620
+      ALL Spritesheet_scaled_4x_pngcrushed_15: -1305251799
+      ALL Spritesheet_scaled_4x_pngcrushed_150: 263857661
+      ALL Spritesheet_scaled_4x_pngcrushed_151: 244465167
+      ALL Spritesheet_scaled_4x_pngcrushed_152: -1460906324
+      ALL Spritesheet_scaled_4x_pngcrushed_153: -753885629
+      ALL Spritesheet_scaled_4x_pngcrushed_154: 1539929112
+      ALL Spritesheet_scaled_4x_pngcrushed_155: 1746890726
+      ALL Spritesheet_scaled_4x_pngcrushed_156: 1198236067
+      ALL Spritesheet_scaled_4x_pngcrushed_157: 423573739
+      ALL Spritesheet_scaled_4x_pngcrushed_158: 2036396283
+      ALL Spritesheet_scaled_4x_pngcrushed_159: 852446243
+      ALL Spritesheet_scaled_4x_pngcrushed_16: -1479993505
+      ALL Spritesheet_scaled_4x_pngcrushed_160: 1570018343
+      ALL Spritesheet_scaled_4x_pngcrushed_161: -1863462984
+      ALL Spritesheet_scaled_4x_pngcrushed_162: 967300210
+      ALL Spritesheet_scaled_4x_pngcrushed_163: -1700764676
+      ALL Spritesheet_scaled_4x_pngcrushed_164: 1852581925
+      ALL Spritesheet_scaled_4x_pngcrushed_165: 1025215794
+      ALL Spritesheet_scaled_4x_pngcrushed_166: -71559541
+      ALL Spritesheet_scaled_4x_pngcrushed_167: 576953628
+      ALL Spritesheet_scaled_4x_pngcrushed_168: 39582151
+      ALL Spritesheet_scaled_4x_pngcrushed_169: -1227170872
+      ALL Spritesheet_scaled_4x_pngcrushed_17: 956950637
+      ALL Spritesheet_scaled_4x_pngcrushed_170: -674199083
+      ALL Spritesheet_scaled_4x_pngcrushed_171: 520065630
+      ALL Spritesheet_scaled_4x_pngcrushed_172: -1788415240
+      ALL Spritesheet_scaled_4x_pngcrushed_173: -1462331393
+      ALL Spritesheet_scaled_4x_pngcrushed_174: -24333618
+      ALL Spritesheet_scaled_4x_pngcrushed_175: -1269642484
+      ALL Spritesheet_scaled_4x_pngcrushed_176: 1579527878
+      ALL Spritesheet_scaled_4x_pngcrushed_177: -895580158
+      ALL Spritesheet_scaled_4x_pngcrushed_178: 1050728801
+      ALL Spritesheet_scaled_4x_pngcrushed_179: -175927842
+      ALL Spritesheet_scaled_4x_pngcrushed_18: 2143150500
+      ALL Spritesheet_scaled_4x_pngcrushed_180: -321231665
+      ALL Spritesheet_scaled_4x_pngcrushed_181: 648042015
+      ALL Spritesheet_scaled_4x_pngcrushed_182: 449273332
+      ALL Spritesheet_scaled_4x_pngcrushed_183: -741961229
+      ALL Spritesheet_scaled_4x_pngcrushed_184: -883184093
+      ALL Spritesheet_scaled_4x_pngcrushed_185: 1612988493
+      ALL Spritesheet_scaled_4x_pngcrushed_186: 1162294279
+      ALL Spritesheet_scaled_4x_pngcrushed_187: 2098010299
+      ALL Spritesheet_scaled_4x_pngcrushed_188: 1177370513
+      ALL Spritesheet_scaled_4x_pngcrushed_189: -424576059
+      ALL Spritesheet_scaled_4x_pngcrushed_19: -1860878868
+      ALL Spritesheet_scaled_4x_pngcrushed_190: 785678375
+      ALL Spritesheet_scaled_4x_pngcrushed_191: -925462505
+      ALL Spritesheet_scaled_4x_pngcrushed_192: 828982187
+      ALL Spritesheet_scaled_4x_pngcrushed_193: -1591570658
+      ALL Spritesheet_scaled_4x_pngcrushed_194: -106643576
+      ALL Spritesheet_scaled_4x_pngcrushed_195: -1651604130
+      ALL Spritesheet_scaled_4x_pngcrushed_196: 1279864949
+      ALL Spritesheet_scaled_4x_pngcrushed_197: -2033605461
+      ALL Spritesheet_scaled_4x_pngcrushed_198: -1525451513
+      ALL Spritesheet_scaled_4x_pngcrushed_199: -585187107
+      ALL Spritesheet_scaled_4x_pngcrushed_2: -461414961
+      ALL Spritesheet_scaled_4x_pngcrushed_20: -1069712767
+      ALL Spritesheet_scaled_4x_pngcrushed_200: 239691849
+      ALL Spritesheet_scaled_4x_pngcrushed_201: -213591919
+      ALL Spritesheet_scaled_4x_pngcrushed_202: -2050819582
+      ALL Spritesheet_scaled_4x_pngcrushed_203: 402933382
+      ALL Spritesheet_scaled_4x_pngcrushed_204: 1343888944
+      ALL Spritesheet_scaled_4x_pngcrushed_205: -1329224867
+      ALL Spritesheet_scaled_4x_pngcrushed_206: -698963021
+      ALL Spritesheet_scaled_4x_pngcrushed_207: 1650126107
+      ALL Spritesheet_scaled_4x_pngcrushed_21: 1660075266
+      ALL Spritesheet_scaled_4x_pngcrushed_22: -176292980
+      ALL Spritesheet_scaled_4x_pngcrushed_23: -1545684709
+      ALL Spritesheet_scaled_4x_pngcrushed_24: -1813435602
+      ALL Spritesheet_scaled_4x_pngcrushed_25: -2026241956
+      ALL Spritesheet_scaled_4x_pngcrushed_26: -1391768299
+      ALL Spritesheet_scaled_4x_pngcrushed_27: 1678200884
+      ALL Spritesheet_scaled_4x_pngcrushed_28: -2044664184
+      ALL Spritesheet_scaled_4x_pngcrushed_29: -1834521024
+      ALL Spritesheet_scaled_4x_pngcrushed_3: 1695746182
+      ALL Spritesheet_scaled_4x_pngcrushed_30: 1163318655
+      ALL Spritesheet_scaled_4x_pngcrushed_31: -1506819716
+      ALL Spritesheet_scaled_4x_pngcrushed_32: 385068975
+      ALL Spritesheet_scaled_4x_pngcrushed_33: -75811251
+      ALL Spritesheet_scaled_4x_pngcrushed_34: -617578489
+      ALL Spritesheet_scaled_4x_pngcrushed_35: 1577681249
+      ALL Spritesheet_scaled_4x_pngcrushed_36: 1494791682
+      ALL Spritesheet_scaled_4x_pngcrushed_37: -1588761027
+      ALL Spritesheet_scaled_4x_pngcrushed_38: -1456397269
+      ALL Spritesheet_scaled_4x_pngcrushed_39: -1170394764
+      ALL Spritesheet_scaled_4x_pngcrushed_4: 399425538
+      ALL Spritesheet_scaled_4x_pngcrushed_40: 1705046435
+      ALL Spritesheet_scaled_4x_pngcrushed_41: 2052587316
+      ALL Spritesheet_scaled_4x_pngcrushed_42: 1601820226
+      ALL Spritesheet_scaled_4x_pngcrushed_43: -2064434085
+      ALL Spritesheet_scaled_4x_pngcrushed_44: -378609757
+      ALL Spritesheet_scaled_4x_pngcrushed_45: -1925940307
+      ALL Spritesheet_scaled_4x_pngcrushed_46: -619406089
+      ALL Spritesheet_scaled_4x_pngcrushed_47: -2083035512
+      ALL Spritesheet_scaled_4x_pngcrushed_48: 1501098491
+      ALL Spritesheet_scaled_4x_pngcrushed_49: -125068148
+      ALL Spritesheet_scaled_4x_pngcrushed_5: -892011720
+      ALL Spritesheet_scaled_4x_pngcrushed_50: -448842743
+      ALL Spritesheet_scaled_4x_pngcrushed_51: -1851465780
+      ALL Spritesheet_scaled_4x_pngcrushed_52: 1664923130
+      ALL Spritesheet_scaled_4x_pngcrushed_53: -706868769
+      ALL Spritesheet_scaled_4x_pngcrushed_54: -1743409227
+      ALL Spritesheet_scaled_4x_pngcrushed_55: 1764050785
+      ALL Spritesheet_scaled_4x_pngcrushed_56: -768189792
+      ALL Spritesheet_scaled_4x_pngcrushed_57: -1478311248
+      ALL Spritesheet_scaled_4x_pngcrushed_58: -443717631
+      ALL Spritesheet_scaled_4x_pngcrushed_59: 375560544
+      ALL Spritesheet_scaled_4x_pngcrushed_6: 11405902
+      ALL Spritesheet_scaled_4x_pngcrushed_60: 9847269
+      ALL Spritesheet_scaled_4x_pngcrushed_61: 124412791
+      ALL Spritesheet_scaled_4x_pngcrushed_62: -1179351517
+      ALL Spritesheet_scaled_4x_pngcrushed_63: -850103320
+      ALL Spritesheet_scaled_4x_pngcrushed_64: 1793032530
+      ALL Spritesheet_scaled_4x_pngcrushed_65: -687017170
+      ALL Spritesheet_scaled_4x_pngcrushed_66: 1160368667
+      ALL Spritesheet_scaled_4x_pngcrushed_67: 108044373
+      ALL Spritesheet_scaled_4x_pngcrushed_68: 1117715921
+      ALL Spritesheet_scaled_4x_pngcrushed_69: 1785501876
+      ALL Spritesheet_scaled_4x_pngcrushed_7: 690119963
+      ALL Spritesheet_scaled_4x_pngcrushed_70: 981622365
+      ALL Spritesheet_scaled_4x_pngcrushed_71: -20207841
+      ALL Spritesheet_scaled_4x_pngcrushed_72: 1182366366
+      ALL Spritesheet_scaled_4x_pngcrushed_73: 1579615273
+      ALL Spritesheet_scaled_4x_pngcrushed_74: 1396556959
+      ALL Spritesheet_scaled_4x_pngcrushed_75: -393476401
+      ALL Spritesheet_scaled_4x_pngcrushed_76: -1508547665
+      ALL Spritesheet_scaled_4x_pngcrushed_77: 813771436
+      ALL Spritesheet_scaled_4x_pngcrushed_78: 1770676962
+      ALL Spritesheet_scaled_4x_pngcrushed_79: -994346158
+      ALL Spritesheet_scaled_4x_pngcrushed_8: 1463904421
+      ALL Spritesheet_scaled_4x_pngcrushed_80: 1665551727
+      ALL Spritesheet_scaled_4x_pngcrushed_81: -604661726
+      ALL Spritesheet_scaled_4x_pngcrushed_82: 1712209761
+      ALL Spritesheet_scaled_4x_pngcrushed_83: 1421169450
+      ALL Spritesheet_scaled_4x_pngcrushed_84: 244830723
+      ALL Spritesheet_scaled_4x_pngcrushed_85: -1978263218
+      ALL Spritesheet_scaled_4x_pngcrushed_86: -121114089
+      ALL Spritesheet_scaled_4x_pngcrushed_87: 862474740
+      ALL Spritesheet_scaled_4x_pngcrushed_88: 1362979698
+      ALL Spritesheet_scaled_4x_pngcrushed_89: 1615437221
+      ALL Spritesheet_scaled_4x_pngcrushed_9: -275091934
+      ALL Spritesheet_scaled_4x_pngcrushed_90: 889620996
+      ALL Spritesheet_scaled_4x_pngcrushed_91: 1845919404
+      ALL Spritesheet_scaled_4x_pngcrushed_92: -1512257909
+      ALL Spritesheet_scaled_4x_pngcrushed_93: 995631420
+      ALL Spritesheet_scaled_4x_pngcrushed_94: 1203124508
+      ALL Spritesheet_scaled_4x_pngcrushed_95: -487264651
+      ALL Spritesheet_scaled_4x_pngcrushed_96: -210737292
+      ALL Spritesheet_scaled_4x_pngcrushed_97: 1504749336
+      ALL Spritesheet_scaled_4x_pngcrushed_98: -571341630
+      ALL Spritesheet_scaled_4x_pngcrushed_99: -1962117186
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
