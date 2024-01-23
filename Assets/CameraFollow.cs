@@ -2,8 +2,8 @@ using UnityEngine;
 
 public class CameraFollow : MonoBehaviour
 {
-    public Transform target; // The target to follow (player)
-    public float smoothSpeed = 0.125f; // Smoothing factor
+    public Transform target;
+    public float smoothSpeed = 0.125f; 
 
     void LateUpdate()
     {

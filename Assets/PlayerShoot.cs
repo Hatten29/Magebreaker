@@ -10,7 +10,6 @@ public class PlayerShoot : MonoBehaviour
 
     void Update()
     {
-        // Check for player input to shoot with cooldown
         if (Input.GetKeyDown(KeyCode.J) && Time.time > nextFireTime)
         {
             Shoot();
@@ -20,38 +19,45 @@ public class PlayerShoot : MonoBehaviour
 
     void Shoot()
     {
-        // Determine the direction the player is facing
-        Vector2 shootDirection = Vector2.zero; // Default direction (standing still)
+        Vector2 shootDirection = Vector2.zero;
 
-        if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.A))
+        if (Input.GetKey(KeyCode.A))
         {
-            shootDirection = Vector2.left;
-        }
-        else if (Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D))
-        {
-            shootDirection = Vector2.right;
+            shootDirection += Vector2.left;
         }
 
-        if (Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.W))
+        if (Input.GetKey(KeyCode.D))
         {
-            shootDirection = Vector2.up;
-        }
-        else if (Input.GetKey(KeyCode.DownArrow) || Input.GetKey(KeyCode.S))
-        {
-            shootDirection = Vector2.down;
+            shootDirection += Vector2.right;
         }
 
-        // Instantiate the fireball at the player's position with rotation
-        GameObject fireball = Instantiate(fireballPrefab, transform.position, Quaternion.identity);
+        if (Input.GetKey(KeyCode.W))
+        {
+            shootDirection += Vector2.up;
+        }
 
-        // Set the velocity of the fireball based on the shoot direction
-        fireball.GetComponent<Rigidbody2D>().velocity = shootDirection.normalized * 10f;
+        if (Input.GetKey(KeyCode.S))
+        {
+            shootDirection += Vector2.down;
+        }
 
-        // Attach a script to the fireball to handle collision and cloning
-        FireballCollision fireballCollisionScript = fireball.AddComponent<FireballCollision>();
-        fireballCollisionScript.clonePrefab = clonePrefab;
+        shootDirection.Normalize();
 
-        // Destroy the fireball after 4 seconds
-        Destroy(fireball, 4f);
+        if (shootDirection != Vector2.zero)
+        {
+            GameObject fireball = Instantiate(fireballPrefab, transform.position, Quaternion.identity);
+
+            float angle = Mathf.Atan2(shootDirection.y, shootDirection.x) * Mathf.Rad2Deg;
+            fireball.transform.rotation = Quaternion.Euler(new Vector3(0, 0, angle - 90f)); 
+
+            fireball.GetComponent<Rigidbody2D>().velocity = shootDirection * 10f;
+
+            FireballCollision fireballCollisionScript = fireball.AddComponent<FireballCollision>();
+            fireballCollisionScript.clonePrefab = clonePrefab;
+
+            Destroy(fireball, 4f);
+        }
     }
+
+
 }
