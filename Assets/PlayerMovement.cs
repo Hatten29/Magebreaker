@@ -45,7 +45,6 @@ public class PlayerMovement : MonoBehaviour
 
         animator.SetBool("walking", inputMagnitude > 0);
 
-        // Set the "walking" parameter to false when there is no movement input
         if (inputMagnitude == 0)
         {
             animator.SetBool("walking", false);
